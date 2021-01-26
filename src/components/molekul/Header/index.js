@@ -1,21 +1,23 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import { colors } from '../../../utils/Colors'
 import { fonts } from '../../../utils/Fonts'
 import { Button, Gap } from '../../atom'
 import HeaderDark from './HeaderDark'
 
-const Header = ({title, onPress, icon, type, flag}) => {
+const Header = ({title, onPress, icon, type, flag, navigation}) => {
   // type (icon-only, icon-btn)
   // icon (white, red)
   if(flag){
-    return <HeaderDark title={title} type={type} icon={icon} onPress={onPress}/>
+    return <HeaderDark title={title} type={type} icon={icon} onPress={onPress} navigation={navigation}/>
   }
   return (
-    <View style={styles.wrapper}>
-      <Button type={type} icon={icon} onPress={onPress}/>
-      <Text style={styles.title}>{title}</Text>
-    </View>
+    <>
+      <View style={styles.wrapper}>
+        <Button type={type} icon={icon} onPress={onPress}/>
+        <Text style={styles.title}>{title}</Text>
+      </View>
+    </>
   )
 }
 

@@ -1,31 +1,33 @@
 import React from 'react'
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { DummyPicProfil, ILDaftarPesanan, ILChangeProfile } from '../../assets'
-import { List, MenuProfile } from '../../components'
+import { HeaderStatusBar, List, MenuProfile } from '../../components'
 import { colors, fonts } from '../../utils'
 
 const Profil = ({navigation}) => {
   return (
-    <View style={styles.container}>
-      <MenuProfile/>
-      <ScrollView showsVerticalScrollIndicator={false}>
-        <View>
-          <View style={styles.headerProfile}>
-            <View style={styles.contentProfile}>
-              <Image source={DummyPicProfil} style={styles.avatar} />
-              <View style={styles.desc}>
-                <Text style={styles.name}>Tsukishima kei</Text>
-                <Text style={styles.address}>Mata empat</Text>
+    <>
+      <View style={styles.container}>
+        <MenuProfile/>
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View>
+            <View style={styles.headerProfile}>
+              <View style={styles.contentProfile}>
+                <Image source={DummyPicProfil} style={styles.avatar} />
+                <View style={styles.desc}>
+                  <Text style={styles.name}>Tsukishima kei</Text>
+                  <Text style={styles.address}>Mata empat</Text>
+                </View>
               </View>
             </View>
+            <View style={styles.menu}>
+              <List icon="list_order" title="Daftar Pesanan" type="menuProfile" onPress={()=>navigation.navigate('Transaction')}/>
+              <List icon="change_profile" title="Ubah Profile" type="menuProfile" onPress={()=>navigation.navigate('ChangeProfile')}/>
+            </View>
           </View>
-          <View style={styles.menu}>
-            <List icon="list_order" title="Daftar Pesanan" type="menuProfile"/>
-            <List icon="change_profile" title="Ubah Profile" type="menuProfile" onPress={()=>navigation.navigate('ChangeProfile')}/>
-          </View>
-        </View>
-      </ScrollView>
-    </View>
+        </ScrollView>
+      </View>
+    </>
   )
 }
 
@@ -77,6 +79,6 @@ const styles = StyleSheet.create({
   menu:{
     paddingHorizontal:16,
     flex:1,
-    marginTop:50
+    marginTop:40
   }
 })

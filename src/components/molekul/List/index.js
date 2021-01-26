@@ -25,25 +25,36 @@ const List = ({type, image, title, desc, date, onPress, icon}) => {
   }
 
   return (
-    <TouchableOpacity activeOpacity={0.4} onPress={onPress}>
-      <CardView
-        cardElevation={3}
-        cardMaxElevation={7}
-        cornerRadius={12}
-        cornerOverlap={false}
-        onPress={onPress}
-        style={{marginBottom:20}}>
-          <View style={{flexDirection:'row',flex:1, alignItems:'center', paddingVertical:20, paddingHorizontal:20}}>
-            <Icon/>
-            <Text style={{marginLeft:28, fontFamily:fonts.primary[600],fontSize:14}}>
-                {title}
-            </Text>
-          </View>
-      </CardView>
+    <TouchableOpacity activeOpacity={0.4} onPress={onPress} style={{flex:1}}>
+      <View style={styles.wrapper}>
+        <Icon/>
+        <Text style={{marginLeft:28, fontFamily:fonts.primary[600],fontSize:14}}>
+            {title}
+        </Text>
+      </View>
     </TouchableOpacity>
   )
 }
 
 export default List
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  wrapper:{
+    flexDirection:'row',
+    flex:1, 
+    marginBottom:20,
+    alignItems:'center', 
+    paddingVertical:20, 
+    paddingHorizontal:20,
+    backgroundColor:'white',
+    shadowColor: "#000",
+    borderRadius:8,
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 4,
+    shadowRadius: 6,
+    elevation: 3,
+  }
+})

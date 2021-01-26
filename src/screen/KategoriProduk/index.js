@@ -25,7 +25,7 @@ const KategoriProduk = ({navigation}) => {
 
   return (
     <View style={stylesheet.container}>
-    <Header title="Kategori Produk" type="icon-only" flag/>
+    <Header title="Kategori Produk" type="icon-only" flag  navigation={navigation}/>
     <ScrollView verticall showsVerticalScrollIndicator={false} style={{flex: 1}}>
       <View  style={stylesheet.pages}>
           <FlatList
@@ -46,7 +46,7 @@ const KategoriProduk = ({navigation}) => {
           <View style={{justifyContent:'center', flex:1, alignItems:'center', marginTop:10}}>
             <Button onPress={()=> navigation.navigate('Produk')} type="secondary" title="Lihat Semua Produk" />
             <Gap height={20}/>
-            <Button type="primary" title="Tambah Pesanan Lain" />
+            <Button type="primary" title="Tambah Pesanan Lain" onPress={()=> navigation.navigate('Keranjang',{flag:true})} />
           </View>
       </View>
     </ScrollView>

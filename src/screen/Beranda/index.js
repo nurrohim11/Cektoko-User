@@ -1,27 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { BackHandler, Dimensions, Platform, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { BackHandler, Dimensions, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
 import { stylesheet } from '../../assets';
-import { CardItem, Gap, Header, Link } from '../../components';
+import { CardItem, Gap, Header, HeaderStatusBar, Link } from '../../components';
 import FlatListSlider from '../../components/slider/FlatListSlider';
 import { colors, fonts } from '../../utils';
 
-const IS_IOS = Platform.OS === 'ios';
-const { width: viewportWidth, height: viewportHeight } = Dimensions.get('window');
-
-function wp (percentage) {
-    const value = (percentage * viewportWidth) / 100;
-    return Math.round(value);
-}
-
-const slideHeight = viewportHeight * 0.25;
-const slideWidth = wp(90);
-const itemHorizontalMargin = wp(1);
-
-const sliderWidth = viewportWidth;
-const itemWidth = slideWidth + itemHorizontalMargin * 2;
-
 const Beranda = ({navigation}) => {
 
+  const { width ,height } = Dimensions.get('window');
   const [slider, setSlider] = useState(
     [
       {
@@ -56,21 +42,19 @@ const Beranda = ({navigation}) => {
     ]
   )
   
-  const windowWidth = Dimensions.get('window').width;
-  const windowHeight = Dimensions.get('window').height;
-
   useEffect(() => {
-    // const backAction = () => {
-    //   BackHandler.exitApp()
-    //   return true;
-    // };
-    // const backHandler = BackHandler.addEventListener("hardwareBackPress",backAction);
-    // return () => backHandler.remove();
+    const backAction = () => {
+      BackHandler.exitApp()
+      return true;
+    };
+    const backHandler = BackHandler.addEventListener("hardwareBackPress",backAction);
+    return () => backHandler.remove();
   }, []);
 
   return (
     <View style={styles.container}>
-      <Header title="CEKTOKO" type="icon-only" flag/>
+      {/* <HeaderStatusBar color={colors.primary}/> */}
+      <Header title="CEKTOKO" type="icon-only" flag navigation={navigation}/>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View  style={stylesheet.pages}>
           <CardItem type="location"/>
@@ -78,18 +62,18 @@ const Beranda = ({navigation}) => {
           <CardItem type="merchant"/>
           <Gap height={24}/>
           <View style={{borderRadius:20}}>
-            {/* <FlatListSlider
+            <FlatListSlider
               data={slider}
-              height={slideHeight}
-              width={itemWidth}
+              height={200}
+              width={width-32}
               timer={5000}
               onPress={item => alert(JSON.stringify(item))}
               indicatorContainerStyle={{position:'absolute', bottom: 10}}
               indicatorActiveColor={colors.primary}
               indicatorInActiveColor={'#ffffff'}
-              indicatorActiveWidth={20}
+              indicatorActiveWidth={7}
               animation
-            /> */}
+            />
           </View>
           <Gap height={10}/>
           <Link text="Lihat semua iklan" onPress={()=>navigation.navigate('Iklan')} color={colors.primary} align="right"/>

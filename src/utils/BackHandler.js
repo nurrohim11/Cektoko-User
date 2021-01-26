@@ -5,4 +5,5 @@ const backAction = () => {
   BackHandler.exitApp()
   return true;
 };
+
 export const backHandler = BackHandler.addEventListener("hardwareBackPress",backAction);

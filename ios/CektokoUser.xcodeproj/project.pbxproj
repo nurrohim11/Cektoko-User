@@ -20,6 +20,13 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B566A11FAFDEC398C424142A /* libPods-CektokoUser-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083ED4C5B62E24BA87F00540 /* libPods-CektokoUser-tvOS.a */; };
 		CBB0A34FCD59829899A47A8D /* libPods-CektokoUser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E65B571750AD286E1D1DCBD /* libPods-CektokoUser.a */; };
+		43B1A52D55EA4291A3A1AD10 /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6440E56D56D42F7B2528D79 /* NunitoSans-Black.ttf */; };
+		89F912F9B6144158AC882126 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12353C1B5C4144B9927C7564 /* NunitoSans-Bold.ttf */; };
+		66FE908208B84B30A8D92878 /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4635B35BF984D91AB02CD77 /* NunitoSans-ExtraBold.ttf */; };
+		8689FE36796C4984B4C20210 /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AA6FC6B5424A8891738CB9 /* NunitoSans-ExtraLight.ttf */; };
+		E2B90C33CEB44DC28A3FE3AB /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 943806BFF8364F6080DEE354 /* NunitoSans-Light.ttf */; };
+		25F9CB3BE5B445B185FD1A16 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 853492F9AE574D5BB0B70572 /* NunitoSans-Regular.ttf */; };
+		C5091A69959742A4A42658F5 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8158AF346DC47D4A5C2C1A6 /* NunitoSans-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		2D02E4901E0B4A5D006451C7 /* CektokoUser-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CektokoUser-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F91A551FB8FAB8A8A2AEB65 /* Pods-CektokoUser-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CektokoUser-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CektokoUser-tvOSTests/Pods-CektokoUser-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		50F1A1857BBD64C6D83FEAB7 /* Pods-CektokoUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CektokoUser.release.xcconfig"; path = "Target Support Files/Pods-CektokoUser/Pods-CektokoUser.release.xcconfig"; sourceTree = "<group>"; };
+		52DD0E8625BFABB8002D0497 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-ExtraBold.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		52DD0E8725BFABB8002D0497 /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-ExtraLight.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		52DD0E8825BFABB8002D0497 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Regular.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		52DD0E8925BFABB8002D0497 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-SemiBold.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		52DD0E8A25BFABB8002D0497 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Black.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		52DD0E8B25BFABB8002D0497 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Light.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		52DD0E8C25BFABB8002D0497 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Bold.ttf"; path = "../../android/app/src/main/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		568504B67D4F2A737FFA53F0 /* Pods-CektokoUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CektokoUser.debug.xcconfig"; path = "Target Support Files/Pods-CektokoUser/Pods-CektokoUser.debug.xcconfig"; sourceTree = "<group>"; };
 		6E65B571750AD286E1D1DCBD /* libPods-CektokoUser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CektokoUser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A7C8372D694DA7D7E78ED4 /* libPods-CektokoUser-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CektokoUser-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +81,13 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F7D506C33EA42D2EA0CAC5A7 /* Pods-CektokoUser-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CektokoUser-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CektokoUser-tvOS/Pods-CektokoUser-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FC2729335F1EC72397ED30F8 /* Pods-CektokoUser-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CektokoUser-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CektokoUser-tvOS/Pods-CektokoUser-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E6440E56D56D42F7B2528D79 /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; name = "NunitoSans-Black.ttf"; path = "../src/assets/fonts/NunitoSans-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12353C1B5C4144B9927C7564 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; name = "NunitoSans-Bold.ttf"; path = "../src/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4635B35BF984D91AB02CD77 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NunitoSans-ExtraBold.ttf"; path = "../src/assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93AA6FC6B5424A8891738CB9 /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; name = "NunitoSans-ExtraLight.ttf"; path = "../src/assets/fonts/NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		943806BFF8364F6080DEE354 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; name = "NunitoSans-Light.ttf"; path = "../src/assets/fonts/NunitoSans-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		853492F9AE574D5BB0B70572 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; name = "NunitoSans-Regular.ttf"; path = "../src/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8158AF346DC47D4A5C2C1A6 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; name = "NunitoSans-SemiBold.ttf"; path = "../src/assets/fonts/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +170,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52DD0E8525BFAB68002D0497 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				52DD0E8A25BFABB8002D0497 /* NunitoSans-Black.ttf */,
+				52DD0E8C25BFABB8002D0497 /* NunitoSans-Bold.ttf */,
+				52DD0E8625BFABB8002D0497 /* NunitoSans-ExtraBold.ttf */,
+				52DD0E8725BFABB8002D0497 /* NunitoSans-ExtraLight.ttf */,
+				52DD0E8B25BFABB8002D0497 /* NunitoSans-Light.ttf */,
+				52DD0E8825BFABB8002D0497 /* NunitoSans-Regular.ttf */,
+				52DD0E8925BFABB8002D0497 /* NunitoSans-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +194,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				52DD0E8525BFAB68002D0497 /* fonts */,
 				13B07FAE1A68108700A75B9A /* CektokoUser */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CektokoUserTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				B3AF553B4E7185E5D62A2FCD /* Pods */,
+				CD6465F9F46143979181D830 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -194,9 +231,23 @@
 				2F91A551FB8FAB8A8A2AEB65 /* Pods-CektokoUser-tvOSTests.debug.xcconfig */,
 				B51E9E1DF7820DD438092D86 /* Pods-CektokoUser-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		CD6465F9F46143979181D830 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E6440E56D56D42F7B2528D79 /* NunitoSans-Black.ttf */,
+				12353C1B5C4144B9927C7564 /* NunitoSans-Bold.ttf */,
+				E4635B35BF984D91AB02CD77 /* NunitoSans-ExtraBold.ttf */,
+				93AA6FC6B5424A8891738CB9 /* NunitoSans-ExtraLight.ttf */,
+				943806BFF8364F6080DEE354 /* NunitoSans-Light.ttf */,
+				853492F9AE574D5BB0B70572 /* NunitoSans-Regular.ttf */,
+				C8158AF346DC47D4A5C2C1A6 /* NunitoSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -291,17 +342,21 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 54P763HL8P;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 54P763HL8P;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54P763HL8P;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54P763HL8P;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -342,6 +397,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				43B1A52D55EA4291A3A1AD10 /* NunitoSans-Black.ttf in Resources */,
+				89F912F9B6144158AC882126 /* NunitoSans-Bold.ttf in Resources */,
+				66FE908208B84B30A8D92878 /* NunitoSans-ExtraBold.ttf in Resources */,
+				8689FE36796C4984B4C20210 /* NunitoSans-ExtraLight.ttf in Resources */,
+				E2B90C33CEB44DC28A3FE3AB /* NunitoSans-Light.ttf in Resources */,
+				25F9CB3BE5B445B185FD1A16 /* NunitoSans-Regular.ttf in Resources */,
+				C5091A69959742A4A42658F5 /* NunitoSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +673,7 @@
 			baseConfigurationReference = 8181309CE441D9F33D83913E /* Pods-CektokoUser-CektokoUserTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -635,6 +698,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				INFOPLIST_FILE = CektokoUserTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -656,6 +720,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CektokoUser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -664,7 +729,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gmedia.cektokouser;
 				PRODUCT_NAME = CektokoUser;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -679,6 +744,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				INFOPLIST_FILE = CektokoUser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -686,7 +752,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = id.gmedia.cektokouser;
 				PRODUCT_NAME = CektokoUser;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,6 +770,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CektokoUser-tvOS/Info.plist";
@@ -733,6 +800,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CektokoUser-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -759,6 +827,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CektokoUser-tvOSTests/Info.plist";
@@ -787,6 +856,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 54P763HL8P;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "CektokoUser-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

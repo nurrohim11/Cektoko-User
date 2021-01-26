@@ -9,7 +9,8 @@ const mainColors ={
   colorStar2:'#D4DFE6',
   white:'#FFF',
   black:'#000',
-  colorGrey1:'#D0D4D8'
+  colorGrey1:'#D0D4D8',
+  colorRed2:'#FFF3F5'
 }
 
 export const colors={
@@ -19,6 +20,7 @@ export const colors={
   bgButtonGoogle:mainColors.primary,
   background:mainColors.colorDark3,
   backgroundProfile:mainColors.colorDark1,
+  backgroundStripped:mainColors.colorRed2,
   text:{
     primary:mainColors.colorDark1,
     secondary: mainColors.colorDark2,

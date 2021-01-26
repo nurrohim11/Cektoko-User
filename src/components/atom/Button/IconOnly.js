@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, TouchableOpacity } from 'react-native'
-import { ILBackRed, ILBackWhite } from '../../../assets'
+import { ILBackRed, ILBackWhite, ILRemove } from '../../../assets'
 
 const IconOnly = ({onPress, icon}) => {
 
@@ -8,8 +8,11 @@ const IconOnly = ({onPress, icon}) => {
     if(icon === 'red'){
       return <ILBackRed/>
     }
-    else if(icon ==='white'){
+    if(icon ==='white'){
       return <ILBackWhite/>
+    }
+    if(icon ==='remove'){
+      return <ILRemove/>
     }
     return <ILBackRed/>
   }

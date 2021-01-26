@@ -174,6 +174,10 @@ export default class FlatListSlider extends Component {
     }
     this.setState({index: this.state.index + 1});
     this.slider.current.scrollToIndex({
+      index:0,
+      animated:true
+    })
+    this.slider.current.scrollToIndex({
       index: this.state.index,
       animated: true,
     });

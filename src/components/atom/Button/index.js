@@ -1,6 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import { TouchableOpacity } from 'react-native-gesture-handler'
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
 import { colors, fonts } from '../../../utils'
 import IconOnly from './IconOnly'
 
@@ -22,7 +21,7 @@ const styles = StyleSheet.create({
   container:(type, width)=> ({
     backgroundColor: type==='secondary' ? colors.button.secondary.background : colors.button.primary.background,
     borderRadius:10,
-    paddingVertical: 10,
+    paddingVertical: 6,
     width: width ? width : '100%',
   }),
   title:(type)=>({

@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { ScrollView, StyleSheet, View, BackHandler } from 'react-native';
 import { stylesheet } from '../../assets';
 import { Gap, Header, List } from '../../components';
 import { colors } from '../../utils';
 
 const Iklan = ({navigation}) => {
+
+  useEffect(() => {
+    const backAction = () => {
+      navigation.goBack()
+      return true;
+    };
+
+    const backHandler = BackHandler.addEventListener(
+      "hardwareBackPress",
+      backAction
+    );
+
+    return () => backHandler.remove();
+  }, []);
 
   const [item, setItem] = useState(
     [
@@ -57,7 +71,7 @@ const Iklan = ({navigation}) => {
                 )
               })
             }
-            <Gap height={60}/>
+            <Gap height={40}/>
           </ScrollView>
         </View>
       </View>

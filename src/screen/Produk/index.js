@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { FlatList, StyleSheet, View } from 'react-native'
 import { stylesheet } from '../../assets'
 import { CardItem, Gap, Header, Input } from '../../components'
+import ToolbarAndroid from '@react-native-community/toolbar-android';
 
 const Produk = ({navigation}) => {
 
@@ -54,7 +55,7 @@ const Produk = ({navigation}) => {
 
   return (
     <View style={stylesheet.container} onPress={()=> navigation.goBack()}>
-      <Header title="Produk Populer" flag icon="red" onPress={()=> navigation.goBack()}/>
+      <Header title="Produk Populer" flag icon="red"  navigation={navigation}/>
       <View style={stylesheet.pages}>
         <Input label="Cari produk kesukaanmu" icon="search"/>
         <Gap height={10}/>

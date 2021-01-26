@@ -10,7 +10,6 @@ const CardProduk = ({params}) => {
       <View style={styles.content}>
       <Image source={DummyProduk1} style={styles.imgProduk}/>
         <Text style={styles.title}>{params.name}</Text>
-        {/* <Text style={styles.harga}>{Rupiah(params.harga)}</Text> */}
         <Text style={styles.harga}>Rp. <Format value={params.harga} decimal="0" type="currency" /></Text>
       </View>
     </View>
@@ -24,14 +23,14 @@ const styles = StyleSheet.create({
     width: (width - 40) / 2 - 6,
     backgroundColor:'white',
     shadowColor: "#000",
-    borderRadius:10,
+    borderRadius:6,
     shadowOffset: {
       width: 0,
       height: 8,
     },
-    shadowOpacity: 10,
-    shadowRadius: 10,
-    elevation: 4,
+    shadowOpacity: 2,
+    shadowRadius: 4,
+    elevation: 2,
     marginBottom:10
   },
   imgProduk:{

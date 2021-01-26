@@ -4,7 +4,7 @@ import { stylesheet } from '../../assets';
 import { Header, List } from '../../components';
 import { colors } from '../../utils';
 
-const Info = () => {
+const Info = ({navigation}) => {
 
   useEffect(() => {
     const backAction = () => {
@@ -17,7 +17,7 @@ const Info = () => {
 
   return (
     <View style={stylesheet.container}>
-      <Header title="Info" type="icon-only" flag/>
+      <Header title="Info" type="icon-only" flag  navigation={navigation}/>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View  style={stylesheet.pages}>
           <List type='info' date="18 des 2020" title="This is message for youre eat in bottom table" desc="Hahaha lorem ipsum is not text but this is writen. tester list information"/>

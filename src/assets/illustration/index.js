@@ -25,6 +25,17 @@ import ILSearch from './serchingicon.svg'
 import ILFilter from './filtericonmerah.svg'
 import ILCameraRed from './cameraiconmerah.svg'
 import ILBackgroundProfile from './bg.png'
+import ILNewOrder from './ic_new_order.svg'
+import ILNewOrderActive from './ic_new_order_active.svg'
+import ILCheckOrder from './ic_check_order.svg'
+import ILCheckOrderActive from './ic_check_order_active.svg'
+import ILWaitingDelivery from './ic_waiting_delivery.svg'
+import ILWaitingDeliveryActive from './ic_waiting_delivery_active.svg'
+import ILDeliveryOrder from './ic_delivery_order.svg'
+import ILDeliveryOrderActive from './ic_delivery_order_active.svg'
+import ILCompleteDelivery from './ic_complete_order.svg'
+import ILCompleteDeliveryActive from './ic_complete_order_active.svg'
+import ILRemove from './ic_remove.svg'
 
 export {
   IlImageLogin,
@@ -53,5 +64,16 @@ export {
   ILFilter,
   ILSettingsWhite,
   ILCameraRed,
-  ILBackgroundProfile
+  ILBackgroundProfile,
+  ILNewOrder,
+  ILNewOrderActive,
+  ILCheckOrder,
+  ILCheckOrderActive,
+  ILWaitingDelivery,
+  ILWaitingDeliveryActive,
+  ILDeliveryOrder,
+  ILDeliveryOrderActive,
+  ILCompleteDelivery,
+  ILCompleteDeliveryActive,
+  ILRemove
 }

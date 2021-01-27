@@ -28,7 +28,7 @@ const KategoriProduk = ({navigation}) => {
     <Header title="Kategori Produk" type="icon-only" flag  navigation={navigation}/>
     <ScrollView verticall showsVerticalScrollIndicator={false} style={{flex: 1}}>
       <View  style={stylesheet.pages}>
-          <FlatList
+          {/* <FlatList
             columnWrapperStyle={{justifyContent: 'space-between'}}
             data={items}
             fixed
@@ -42,7 +42,7 @@ const KategoriProduk = ({navigation}) => {
                 <Gap width={6}/>
               </>
             )}
-          />
+          /> */}
           <View style={{justifyContent:'center', flex:1, alignItems:'center', marginTop:10}}>
             <Button onPress={()=> navigation.navigate('Produk')} type="secondary" title="Lihat Semua Produk" />
             <Gap height={20}/>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
-import CardView from 'react-native-cardview'
 import { ILChangeProfile, ILDaftarPesanan } from '../../../assets'
 import { fonts } from '../../../utils'
 import ListIklan from './ListIklan'

@@ -44,7 +44,7 @@ const TransactionApps=()=>{
 
 const Router=()=>{
   return (
-    <Stack.Navigator initialRouteName="Main">
+    <Stack.Navigator initialRouteName="Login">
       <Stack.Screen
         name="Login"
         component={Login}

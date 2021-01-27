@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
-import { FlatList, StyleSheet, View } from 'react-native'
-import { stylesheet } from '../../assets'
-import { CardItem, Gap, Header, Input } from '../../components'
-import ToolbarAndroid from '@react-native-community/toolbar-android';
+import React, { useState } from 'react';
+import { FlatList, StyleSheet, View } from 'react-native';
+import { stylesheet } from '../../assets';
+import { CardItem, Gap, Header, Input } from '../../components';
 
 const Produk = ({navigation}) => {
 

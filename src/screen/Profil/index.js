@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native'
-import { DummyPicProfil, ILDaftarPesanan, ILChangeProfile } from '../../assets'
-import { HeaderStatusBar, List, MenuProfile } from '../../components'
+import { DummyPicProfil } from '../../assets'
+import { List, MenuProfile } from '../../components'
 import { colors, fonts } from '../../utils'
 
 const Profil = ({navigation}) => {

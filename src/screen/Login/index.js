@@ -22,18 +22,18 @@ const Login = ({navigation}) => {
           <View style={{alignItems:'center'}}>
             <Button width={150} title="Login" icon="red" type="secondary" onPress={()=> navigation.replace('Main')}/>
           </View>
-          <Gap height={22}/>
+          <Gap height={12}/>
           <Text style={styles.sectionLabel}>Atau Login Dengan</Text>
-          <Gap height={22}/>
+          <Gap height={12}/>
           <Button title="Google" icon="red" type="primary"/>
-          <Gap height={22}/>
+          <Gap height={12}/>
           <View style={styles.labelRegister}>
             <Text style={styles.ketBelum}>Belum punya akun ?</Text>
             <TouchableOpacity  onPress={()=> navigation.navigate('Register')}>
               <Text style={styles.ketDaftar}>Daftar disini</Text>
             </TouchableOpacity>
           </View>
-          <Gap height={30}/>
+          <Gap height={10}/>
         </ScrollView>
       </View>
     </View>
@@ -52,7 +52,9 @@ const styles = StyleSheet.create({
     backgroundColor:colors.background,
     justifyContent:'center',
     flex:1,
-    padding:30
+    padding:30,
+    marginTop:-30,
+    marginBottom:-30
   }, 
   wrapper:{
     alignItems:'center'

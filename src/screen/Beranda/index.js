@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { BackHandler, Dimensions, ScrollView, StatusBar, StyleSheet, Text, View } from 'react-native';
+import { BackHandler, Dimensions, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { stylesheet } from '../../assets';
-import { CardItem, Gap, Header, HeaderStatusBar, Link } from '../../components';
+import { CardItem, Gap, Header, Link } from '../../components';
 import FlatListSlider from '../../components/slider/FlatListSlider';
 import { colors, fonts } from '../../utils';
 
